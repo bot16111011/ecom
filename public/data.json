@@ -1,0 +1,52 @@
+{"products":[
+  {
+    "id": 1,
+    "name": "Sofa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQxyUUnwoFi1HOaVwKYjOBf1j9P4OyUWSMl9AjUNPaA&s",
+    "price": "49.99",
+    "rating": "4.5"
+  },
+  {
+    "id": 2,
+    "name": "Iphone",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://m.media-amazon.com/images/I/81dT7CUY6GL._AC_UF1000,1000_QL80_.jpg",
+    "price": "29.99",
+    "rating": "3.8"
+  },
+  {
+    "id": 3,
+    "name": "Macbook Black",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "https://iplanet.one/cdn/shop/files/r1587_Space_Grey_PDP_Image_Position-1__en-IN.jpg?v=1691142733",
+    "price": "39.99",
+    "rating": "2.5"
+  },
+  {
+    "id": 4,
+    "name": "Torch",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51Zcsx26aHL.jpg",
+    "price": "9.99",
+    "rating": "4.5"
+  },
+  {
+    "id": 5,
+    "name": "Samsung S24",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://m.media-amazon.com/images/I/71RVuBs3q9L._AC_UF1000,1000_QL80_.jpg",
+    "price": "39.99",
+    "rating": "3.8"
+  },
+  {
+    "id": 6,
+    "name": "Shirt",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "https://tiimg.tistatic.com/fp/1/008/501/men-full-sleeves-winter-fur-shirt-for-casual-wear-445.jpg",
+    "price": "9.99",
+    "rating": "3.5"
+  }
+]
+}
+

@@ -1,0 +1,47 @@
+.navbar {
+    height: 60px;
+
+    .wrapper {
+        max-width: 100%;
+        background: linear-gradient(150deg, rgb(5, 24, 82), gold);
+        box-shadow: inset -10px 0px 10px 4px lightgray;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 10px;
+        gap: 4rem;
+
+        a {
+            color: white;
+            font-weight: bolder;
+            font-size: 25px;
+            flex-grow: 1;
+        }
+
+        .logo {
+            color: gold;
+            font-family: sans-serif;
+            flex-grow: 1;
+            font-size: 35px;
+        }
+        .cart-link {
+            position: relative;
+            .cart-count {
+                position: absolute;
+                top: auto;
+                right: auto;
+                background-color: red;
+                color: white;
+                border-radius: 50%;
+                padding: 2px 8px;
+                font-size: 12px;
+            }
+            img {
+                margin-right: auto;
+                width:50px;
+                height:50px;
+            }
+        }
+
+    }
+}

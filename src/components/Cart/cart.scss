@@ -1,0 +1,107 @@
+.cartColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+    .wrapper {
+      width: 100%;
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .Product {
+        display: flex;
+        align-items: center;
+        min-height: 10rem;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 1.5em;
+          margin-right: 20px;
+          width: 9rem;
+          margin-left: 10px;
+        }
+  
+        span {
+            color: #555;
+            margin:5px;
+        }
+  
+        img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 8px;
+          margin-right: 10px;
+        }
+
+        .description{
+            width: 500px;
+            white-space: normal;
+        }  
+        button{
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            margin:2px;            
+        }
+        .control_button{
+            color: #fff;
+            padding: 3px;
+            border-radius: 0px;
+            background-color: #007bff;
+        }
+        .remove{
+            color: #fff;
+            background-color: rgb(146, 21, 21);
+            cursor: pointer;
+        }
+        .price {
+            padding: 8px;
+            color: #007bff;
+            span{
+                font-size: medium;
+                font-family: cursive;
+            }
+        }
+    
+        .rating {
+            padding: 10px;
+            color: #af9014;
+            span{
+                color: #af9014;
+                font-size: medium;
+                font-weight: bolder; 
+            }   
+        }
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+            scale: 0.8;
+        }
+        
+        .quantity-controls button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.2em;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            // margin: 0 5px;
+        }
+        
+        .quantity {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+      }
+    }
+  }

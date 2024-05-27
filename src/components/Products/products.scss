@@ -1,0 +1,112 @@
+.productColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+
+    .sort{
+      margin-left: 70%;
+      border: none;
+      border-radius: 5px;
+      padding: 12px;
+      width:120px;
+    }
+  
+    .wrapper {
+      width: 100%;
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .Product {
+        display: flex;
+        align-items: center;
+        min-height: 10rem;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 1.5em;
+          margin-right: 20px;
+          margin-left: 10px;
+          width: 9rem;
+        }
+  
+        span {
+          margin: 5px;
+          color: #555;
+        }
+  
+        img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 8px;
+          margin-right: 20px;
+        }
+
+        .description{
+            width: 500px;
+            white-space: normal;
+        }
+
+        button{
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            margin:2px;            
+        }
+        .edit{
+            color: #fff;
+            background-color: #007bff;
+            cursor: pointer;
+        }
+        .cart{
+            color: #fff;
+            background-color: green;
+            cursor: pointer;
+        }
+        .price {
+            color: #007bff;
+            padding: 10px;
+            span{
+              font-size: medium;
+              font-family: cursive;
+          }
+        }
+    
+        .rating {
+            color: #af9014;
+            padding:10px;
+            span{
+              color: #af9014;
+              font-size: medium;
+              font-weight: bolder;
+          }
+        }
+        form{
+          display: flex;
+          gap:5px;
+          input{
+            height:80px;
+            width:100px;
+            padding:5px;
+            
+          }
+          textarea{
+            height:80px;
+            width:400px;
+            padding:5px;
+          }
+          .smallBox{
+            width:50px;
+          }
+        }
+      }
+    }
+  }
